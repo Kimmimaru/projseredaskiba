@@ -24,6 +24,30 @@ button {
     cursor: pointer;
 }
 
+.link {
+    text-decoration: none;
+    color: #404bbf
+}
+
+
+.link:hover {
+    text-decoration: none;
+    color: #404bbf
+}
+
+
+.link:focus {
+    text-decoration: none;
+    color: #404bbf
+}
+
+
+.list {
+    list-style: none;
+    font-style: normal;
+}
+
+
 
 .containerq {
     width: 1158px;

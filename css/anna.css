@@ -1,13 +1,23 @@
 .line2{
-    background-color: #eaeaea;
     width: auto;
-    height: 500px;
+    height: auto;
 }
 .line3{
     background-color: #eaeaea;
     width: auto;
-    height: 500px;
+    height: auto;
 }
+
+.sektion-three-title  {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+
+
 .box {
 background-color: #bebebe;
 width: auto;
@@ -56,4 +66,22 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+
+.minbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.minboxt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 30px;
+    padding-bottom: 60px;
 }

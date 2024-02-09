@@ -242,7 +242,7 @@
 
 .sektion-one {
     background-color: #2e2f42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/back.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/back.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -251,14 +251,6 @@
 }
 
 
-@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
-screen and (min-resolution: 192dpi) and (max-width: 767px),
-screen and (min-resolution: 2dppx) and (max-width: 767px) {
- .hero {
-     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-       url('./images/back.jpg');
-   }
-}
 
 
 
@@ -301,24 +293,6 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 }
 
 
-
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
- screen and (min-resolution: 192dpi) and (min-width: 768px),
- screen and (min-resolution: 2dppx) and (min-width: 768px) {
-   .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('./images/back.jpg');
-    }
-}
-
-
-
- @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
- screen and (min-resolution: 192dpi) and (min-width: 1158px),
- screen and (min-resolution: 2dppx) and (min-width: 1158px) {
-   .hero {
-     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('./images/back.jpg');
-   }
- }
 
 
  @media screen and (min-width: 768px) {
@@ -419,9 +393,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
 
 
 
-    .sektion-one {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(./images/back.jpg);
-    }
+
     
 
 
@@ -497,12 +469,12 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
             padding-top: 188px;
             padding-bottom: 188px;
             text-align: center;
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/back.jpg);
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/back.jpg);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            max-width: 1440px;
             margin: 0 auto;
+            margin-bottom: 60px;
         }
         
         

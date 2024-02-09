@@ -239,6 +239,69 @@
 
 
 
+
+.sektion-one {
+    background-color: #2e2f42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/heromob.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 112px;
+    padding-bottom: 112px;
+}
+
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
+screen and (min-resolution: 192dpi) and (max-width: 767px),
+screen and (min-resolution: 2dppx) and (max-width: 767px) {
+ .hero {
+     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+       url('../images/.jpg');
+   }
+}
+
+
+
+.title {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.butt {
+    background-color: #EF0D63;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 16px 32px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    margin: 0 auto;
+    transition: var(--o-transform-link-background); 
+}
+
+
+.butt:is(:hover, :focus) {
+    background-color: #EF0D63;
+}
+
+
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
  screen and (min-resolution: 192dpi) and (min-width: 768px),
  screen and (min-resolution: 2dppx) and (min-width: 768px) {
@@ -353,6 +416,31 @@
         transition: var(--o-transform-link-color);
     }
 
+
+
+
+    .sektion-one {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/.jpg);
+    }
+    
+
+
+    .title {
+        min-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+    }  
+
+
+
+
+
+}
+
+
+
+
+
     @media screen and (min-width: 1158px) {
         .containerq {
             width: 1158px;
@@ -401,3 +489,64 @@
             gap: 40px;
             transition: var(--o-transform-link-color);
         }
+
+
+
+        .sektion-one {
+            background-color: #2e2f42;
+            padding-top: 188px;
+            padding-bottom: 188px;
+            text-align: center;
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            max-width: 1440px;
+            margin: 0 auto;
+        }
+        
+        
+        
+        .title {
+            font-size: 56px;
+            line-height: 1.07;
+            letter-spacing: 0.02em;
+            color: #ffffff;
+            max-width: 496px;
+            margin: 0 auto;
+            margin-bottom: 48px;
+        }
+        
+        
+        .butt {
+            background-color: #EF0D63;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            cursor: pointer;
+            padding: 16px 32px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+            display: block;
+            min-width: 169px;
+            height: 56px;
+            border: none;
+            margin: 0 auto;
+            transition: var(--o-transform-link-background);
+        }
+        
+        
+        .butt:is(:hover, :focus) {
+            background-color: #EF0D63;
+            font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            color: #ffffff;
+            cursor: pointer;
+        }
+    }

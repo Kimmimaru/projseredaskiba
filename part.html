@@ -23,24 +23,91 @@
 
 <body>
 
-
-    <header>
+    <header class="header">
         <div class="containerq">
-        <nav>
-            <a href="./index.html">logo</a>
-            <ul>
-                <li><a href="">Text</a></li>
-                <li><a href="">Text</a></li>
-                <li><a href="">Text</a></li>
-            </ul>
-        </nav>
-
-        <address>
-            <ul>
-                <li><a href="mailto:love@weddingst.com">love@weddingst.com</a></li>
-                <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-            </ul>
-        </address>
+            <nav class="nav">
+                <a href="./index.html" class="logo link ">love<span class="logo-head">weddi</span></a>
+                <ul class="list">
+                    <li><a href="./index.html" class="navi link line">Home</a></li>
+                    <li><a href="./potfolio.html" class="navi link">Portfolio</a></li>
+                    <li><a href="" class="navi link">Contacts</a></li>
+                </ul>
+            </nav>
+            <address class="addr">
+                <ul class="list">
+                    <li><a class="addr-link link" href="mailto:love@weddingst.com">love@weddingst.com</a></li>
+                    <li><a class="addr-link link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+                </ul>
+            </address>
+            <button type="button" class="mobile-menu-open js-open-menu" aria-expanded="false">
+                <svg class="mobile-menu-open-icon" aria-label="menu" width="32" height="22">
+                    <use href="./images/icons.svg#icon-adid"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-menu js-menu-container">
+            <div class="mobile-menu-container">
+                <button type="button" class="menu-close js-close-menu">
+                    <svg class="menu-close-icon" aria-label="menu close button" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-nav list">
+                    <li class="mobile-navi line">
+                        <a class="mobile-navi-link line link" href="./index.html">Home</a>
+                    </li>
+                    <li class="mobile-navi">
+                        <a class="mobile-navi-link link" href="">Portfolio</a>
+                    </li>
+                    <li class="mobile-navi">
+                        <a class="mobile-navi-link link" href="">Contacts</a>
+                    </li>
+                </ul>
+                <div class="mobile-cont">
+                    <address class="mobile-addr link">
+                        <ul class="mobile-addr-list list">
+                            <li class="mobile-addr-li">
+                                <a class="mobile-addr-link tel link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                            </li>
+                            <li class="mobile-addr-li">
+                                <a class="mobile-addr-link email link" href="mailto:love@weddingst.com">love@weddingst.com</a>
+                            </li>
+                        </ul>
+                    </address>
+                    <div class="menu-social-media">
+                        <ul class="mob-ic-list list">
+                            <li class="four-ic-list-li">
+                                <a href="" class="four-ic-link link">
+                                    <svg width="24" height="24" class="four-icon">
+                                        <use href="./images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="four-ic-list-li">
+                                <a href="" class="four-ic-link link">
+                                    <svg width="24" height="24" class="four-icon">
+                                        <use href="./images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="four-ic-list-li">
+                                <a href="" class="four-ic-link link">
+                                    <svg width="24" height="24" class="four-icon">
+                                    <use href="./images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="four-ic-list-li">
+                                <a href="" class="four-ic-link link">
+                                    <svg width="24" height="24" class="four-icon">
+                                        <use href="./images/icons.svg#icon-linkedin"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
@@ -54,57 +121,84 @@
             </div>
         </section1>
 
-        <section2>
+        <section2 class="line2"><br><br>
             <div class="containerq">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 sectiontwo-li">
-                            <br>
-                            <div class="box">
-                                <img src="" alt="img" class="sectiontwo-img"/>
-                                <h3 class="list-title">Організація весілля</h3>
-                                <p class="list-par">Організація весілля – це завжди особиста і неповторна історія про двох люблячих людей. Найщиріші почуття пари і мистецтво весільних організаторів створюють бездоганний весільний шедевр. Кожен весільний проект агентства MARY Wedding agency має унікальну назву, неповторний стиль, художній сценарій, алгоритм організації, в основі якого бездоганна координація. Організація весілля Київ та за кордоном.</p>
+
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 sectiontwo-li">
+                                    <br>
+                                    <div class="box">
+                                        <img src="https://artmuz.com.ua/wp-content/uploads/2016/01/org-svadba-5.jpg" alt="img" class="sectiontwo-img"/>
+                                        <h3 class="list-title">Організація весілля</h3>
+                                        <p class="list-par">Організація весілля – це завжди особиста і неповторна історія про двох люблячих людей. Найщиріші почуття пари і мистецтво весільних організаторів створюють бездоганний весільний шедевр. Тож, наш проєкт гарантує вам гармонію та вправну организацію.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 sectiontwo-li">
+                                    <br>
+                                    <div class="box">
+                                        <img src="https://marryme.ua/wp-content/uploads/2020/05/m7.jpg" alt="img" class="sectiontwo-img"/>
+                                        <h3 class="list-title">Підготовка</h3>
+                                        <p class="list-par">Кожен момент підготовки до вашого весілля розписаний в індивідуальному весільному кейсі. І у вашому розпорядженні завжди персональний весільний координатор. Ми передбачаємо все: атмосфера, гармонійний декор. </p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 sectiontwo-li">
+                                    <br>
+                                    <div class="box">
+                        
+                                        <img src="https://i2.wp.com/kiev-ioniya-wedding.kiev.ua/wp-content/uploads/2017/09/Wedding-253.jpg?w=1200&ssl=1" alt="img"  class="sectiontwo-img"/>
+                                        <h3 class="list-title">Досвід</h3>
+                                        <p class="list-par">Ми працюємо по всьому світу, проводили весілля в 8 країнах, прекрасно знаємо багато майданчики Європи і говоримо на різних мовах. Наші можливості безмежні і дозволяють нам створювати неповторні весільні шедеври для наших клієнтів.</p>
+                                    </div>
+                                </div>
+                                <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 sectiontwo-li">
+                                    <br>
+                                    <div class="box">
+                        
+                                        <img src="https://hotwed.com.ua/uploads/portfolio/fe0fb34df4c0ad04437cd7b8b7d90394/big_6738714f6c450fb3d135254275b41993.JPG" alt="img"  class="sectiontwo-img"/>
+                                        <h3 class="list-title">Планування онлайн</h3>
+                                        <p class="list-par">Планування весілля онлайн – добре нам відома і зрозуміла складова весільного кейсу. І як хороші планувальники, (весільний організатор це завжді про планування), підготували для вас зрозумілий і зручний весільний алгоритм. </p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 sectiontwo-li">
-                            <br>
-                            <div class="box">
-                                <img src="https://marryme.ua/wp-content/uploads/2020/05/m7.jpg" alt="img" class="sectiontwo-img"/>
-                                <h3 class="list-title">Підготовка</h3>
-                                <p class="list-par">Кожен момент підготовки до вашого весілля розписаний в індивідуальному весільному кейсі. І у вашому розпорядженні завжди персональний весільний координатор. Ми передбачаємо все: атмосфера, гармонійний декор, адекватність і швидку взаємодію з весільними координаторами, продуманість сюрпризів, вау-ефекти в сценарії, небанальні конкурси та комфортну взаємодію з гостями. Ми репетируємо всі сценарні події в обов’язковому порядку в місці проведення весілля. А дизайн від загальних планів до оформлення деталей ви зможете побачити на підготовлених нами ескізах заздалегідь.</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 sectiontwo-li">
-                            <br>
-                            <div class="box">
-                
-                                <img src="https://i2.wp.com/kiev-ioniya-wedding.kiev.ua/wp-content/uploads/2017/09/Wedding-253.jpg?w=1200&ssl=1" alt="img"  class="sectiontwo-img"/>
-                                <h3 class="list-title">Досвід</h3>
-                                <p class="list-par">Ми працюємо по всьому світу, проводили весілля в 8 країнах, прекрасно знаємо багато майданчики Європи і говоримо на різних мовах. Наші можливості безмежні і дозволяють нам створювати неповторні весільні шедеври для наших клієнтів.</p>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 sectiontwo-li">
-                            <br>
-                            <div class="box">
-                
-                                <img src="https://hotwed.com.ua/uploads/portfolio/fe0fb34df4c0ad04437cd7b8b7d90394/big_6738714f6c450fb3d135254275b41993.JPG" alt="img"  class="sectiontwo-img"/>
-                                <h3 class="list-title">Планування онлайн</h3>
-                                <p class="list-par">Планування весілля онлайн – добре нам відома і зрозуміла складова весільного кейсу. І як хороші планувальники, (весільний організатор це завжді про планування), підготували для вас зрозумілий і зручний весільний алгоритм, застосовуючи який ви будете відчувати свою причетність і легкість погоджень з весільним організатором. Докладні бріфи, онлайн-чати допомагають тримати руку на пульсі. Налагоджені алгоритми і наша компетентність – складові успіху, тому у нас завжди виходять відмінно бездоганно організовані, унікальні і незабутні весілля.</p>
-                            </div>
-                        </div>
-                    </div>
-                 </div>
+                         </div>
+
             </div>
         </section2>
 
-        <section3>
+        <section3  class="line3"><br><br>
             <div class="containerq">
-            <h2>What are we doing</h2>
-            <ul>
-            <li><img src="" alt="img" width="360px" height="300px"></li>
-            <li><img src="" alt="img" width="360px" height="300px"></li>
-            <li><img src="" alt="img" width="360px" height="300px"></li>
-            </ul>
+
+                            <div class="container">
+                                <div class="row">
+                                    <center>
+                                    <b><h1>What are we doing?</h1></b>
+                                    </center>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 sectionthree-li">
+                                        <br>
+                                        <div class="box">
+                                            <img src="https://hotwed.com.ua/uploads/images/statti/trends/2024/trends2024/trends03.jpg" alt="img" class="sectionthree-img"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 sectionthree-li">
+                                        <br>
+                                        <div class="box">
+                                            <img src="https://hotwed.com.ua/uploads/images/statti/trends/2024/trends2024/trends12.jpg" alt="img"  class="sectionthree-img"/>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 sectionthree-li">
+                                        <br>
+                                        <div class="box">
+                                            <img src="https://hotwed.com.ua/uploads/images/statti/trends/2024/trends2024/trends07.jpg" alt="img"  class="sectionthree-img"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
             </div>
         </section3>
 

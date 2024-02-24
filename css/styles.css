@@ -4,6 +4,16 @@
 }
 
 
+:root {
+    --o-transform-link-color: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --o-transform-link-background: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --o-transform-link-shadow: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --o-transform-link-border: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --o-transform-link-transform:  transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --o-transform-link-fill: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
 p,h1,h2,h3,h4,h5,h6 {
     margin: 0;
 }

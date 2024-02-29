@@ -1,10 +1,10 @@
 .line2{
-    background-color: #eaeaea;
+    background-color: #ffffff;
     width: auto;
     height: 500px;
 }
 .line3{
-    background-color: #eaeaea;
+    background-color: #ffffff;
     width: auto;
     height: 500px;
 }
@@ -19,6 +19,7 @@ border-radius: 10px;
 gap: 20px;
 }
 
+
 .sectiontwo-li {
 width: calc((100% - 72px) / 4);
 
@@ -26,6 +27,10 @@ width: calc((100% - 72px) / 4);
 .sectionthree-li {
 width: calc((100% - 72px) / 3);
 
+}
+.footer-li {
+width: calc((100% - 72px) / 6);
+    
 }
 
 .sectiontwo-img {
@@ -38,6 +43,11 @@ width: 100%;
 height: 250px;
 margin-bottom: 10px; 
 }
+.footer-img {
+    width: 500px;
+    height: 250px;
+    margin-bottom: 10px; 
+    }
 
 .list-title {
 text-align: left;
@@ -56,4 +66,14 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.btn-outline-custom {
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: #EF0D63;
+}
+.footer{
+    background-color: #3b3b3b;
+    width: auto;
+    height: auto;
 }

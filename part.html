@@ -23,10 +23,10 @@
 
 <body>
 
-    <header class="header">
+    <header class="headerq">
         <div class="containerq">
             <nav class="nav">
-                <a href="./index.html" class="logo link ">love<span class="logo-head">weddi</span></a>
+                <a href="./index.html" class="logo link">love<span class="logo-head">weddi</span></a>
                 <ul class="list">
                     <li><a href="./index.html" class="navi link line">Home</a></li>
                     <li><a href="./potfolio.html" class="navi link">Portfolio</a></li>
@@ -200,7 +200,7 @@
         </div>
 
         <section class="portfolio-section">
-            <div class="container">
+            <div class="containerq">
                 <h2 class="sektion-four-title">Review</h2>
                  
                 <ul class="list portfolio-punct-list">
@@ -249,50 +249,135 @@
 
 
     <footer>
-        <div class="containerq">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <img src="" alt="Human" width="360px" height="360px"/>
-        <a href="./index.html">logo</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <form>
-            <label>
-                <input  name="foot-email" type="email" placeholder="E-mail">
-            </label>
-            <button type="submit">
-                Subscribe
-                <svg width="24" height="24">
-                    <use href=""></use>
-                </svg>
-            </button>
-        </form>
-        <div>
-            <p>Social media</p>
-            <ul>
-                <li>
-                    <a href="">
-                        <svg width="24" height="24">
-                            <use href=""></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <svg width="24" height="24">
-                            <use href=""></use>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <svg width="24" height="24">
-                            <use href=""></use>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-        </div>
+        <div class="footer"><br><br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+
+                        <p style="color:rgb(230, 230, 230);" class="list-par">Звітніше весілля з розкошшю та
+                            безтурботністю - наша мета.</p>
+                        <h5 style="color:rgb(230, 230, 230);" class="list-par">Ми -
+                            весільна агенція, що турбується про кожну деталь вашого особливого дня,
+                            надаючи найвищий рівень сервісу та креативних рішень. Від ідеї до реалізації, ми створюємо
+                            весілля вашої мрії.
+                            Наша команда професіоналів з великим досвідом в організації весіль працює з великою увагою
+                            до деталей, враховуючи усі
+                            ваші бажання та особливості.
+                        </h5>
+
+                    </div>
+
+                    <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+                        <center>
+                            <img src="https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MjAxNjA0ODU0ODc4MDUzOTc1/advantages-and-disadvantages-of-marriage.webp"
+                                alt="Human" width="600px" height="360px" class="footer-img" />
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 sectionthree-li">
+                        <nav class="nav">
+                            <a href="./index.html" class="logo link">love<span class="logo-foot">weddi</span></a>
+                        </nav><br>
+                        <div onclick="displayText()"><u class="link">Залишити вігук</u></div><br>
+
+                        <div id="text" style="display: none;">
+                            <h6 style="color:rgb(230, 230, 230);">Чи сподобалися Вам послуги нашої агенції?</h6>
+                            <input type="radio" id="question1">
+                            <label for="question1" style="color:rgb(230, 230, 230);">Так</label><br>
+                            <input type="radio" id="question2">
+                            <label for="question2" style="color:rgb(230, 230, 230);">Ні</label><br>
+                            <input type="radio" id="question3">
+                            <label for="question3" style="color:rgb(230, 230, 230);">Складно відповісти</label><br>
+                            <input type="button" class="btn-outline-custon" onclick="next()" value="Наступне питання"><br>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 sectionthree-li">
+                        <form>
+                            <label>
+                                <input name="foot-email" type="email" placeholder="E-mail">
+                            </label>
+                            <button type="button" class="btn-outline-custom">
+                                <p style="color:rgb(230, 230, 230);">Надіслати</p>
+                            </button>
+                        </form>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 sectionthree-li">
+                        <nav class="nav">
+                            <ul class="list">
+                                <li><a href="" class="navi link" style="color: #EF0D63">Instagram</a></li>
+                                <li><a href="" class="navi link" style="color:rgb(230, 230, 230);">Facebook</a></li>
+                                <li><a href="" class="navi link" style="color:rgb(230, 230, 230);">Tik Tok</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
         </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modalq">
+            <button class="close" type="button" data-modal-close>
+                <svg width="8" height="8" class="close-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <form class="modal-form">
+                <div class="modal-punct">
+                    <label for="user-name" class="modal-lable">Name</label>
+                    <div class="yarn">
+                        <input id="user-name" name="user-name" type="text" class="modal-in">
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-person"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-punct">
+                    <label for="user-phone" class="modal-lable">Phone</label>
+                    <div class="yarn">
+                        <input id="user-phone" name="user-phone" type="tel" class="modal-in">
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-phone"></use>
+                        </svg>
+                    </div>                    
+                </div>
+                <div class="modal-punct">
+                    <label for="user-email" class="modal-lable">Email</label>
+                    <div class="yarn">
+                        <input id="user-email" name="email" type="email" class="modal-in">
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-email"></use>
+                        </svg>
+                    </div>                    
+                </div>
+                <div class="comment">
+                    <label class="modal-lable" for="user-comment">Comment</label>
+                    <textarea id="user-comment" name="user-comment" placeholder="Text input" class="comment-user"></textarea>    
+                </div>
+                <div class="check-mark">
+                    <input class="checkbox-own visually-hidden" value="true" id="user-privacy" type="checkbox" name="user-privacy">
+                    <label class="check" for="user-privacy">
+                        <span class="contact-form">
+                            <svg width="10" height="8" class="choice">
+                                <use href="./images/icons.svg#icon-mark"></use>
+                            </svg>
+                        </span>I accept the terms and conditions of the
+                        <a href="#" class="link-privacy-policy">Privacy Policy</a>
+                    </label>
+                </div>
+                <button class="button-privacy-policy"  type="submit" onclick="reCall()">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/annfooter.js"></script>
+    <script src="./js/ksuform.js"></script>
     <script src="./js/ksumobalmenu.js"></script>
 </body>
 </html>

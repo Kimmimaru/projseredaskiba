@@ -285,14 +285,19 @@
                         <div onclick="displayText()"><u class="link">Залишити вігук</u></div><br>
 
                         <div id="text" style="display: none;">
-                            <h6 style="color:rgb(230, 230, 230);">Чи сподобалися Вам послуги нашої агенції?</h6>
-                            <input type="radio" id="question1">
-                            <label for="question1" style="color:rgb(230, 230, 230);">Так</label><br>
-                            <input type="radio" id="question2">
-                            <label for="question2" style="color:rgb(230, 230, 230);">Ні</label><br>
-                            <input type="radio" id="question3">
-                            <label for="question3" style="color:rgb(230, 230, 230);">Складно відповісти</label><br>
-                            <input type="button" class="btn-outline-custon" onclick="next()" value="Наступне питання"><br>
+                            <form id="frm">
+                            <h6 style="color:rgb(230, 230, 230);">Чи сподобалися Вам послуги нашої агенції?</h6><br>
+                            <input type="radio" id="allergyCheckbox" name="radios">
+                            <label for="radio1" style="color:rgb(230, 230, 230);">Так</label><br>
+                            <input type="radio" id="otherCheckbox" name="radios">
+                            <label for="radio2" style="color:rgb(230, 230, 230);">Ні</label><br>
+                            <label style="color:rgb(230, 230, 230);">Додати коментар:</label>
+                            <br>
+                            <input type="button" class="btn-outline-custon" onclick="add()"
+                                value="Додати">
+                            <input type="button" class="btn-outline-custon" onclick="del()" value="Вилучити">
+                            </form><br>
+                            <input type="button" class="btn-outline-custon" onclick="handleRadioChange()" value="Надіслати"><br>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 sectionthree-li">
@@ -327,7 +332,7 @@
                     <use href="./images/icons.svg#icon-close"></use>
                 </svg>
             </button>
-            <p class="modal-title">Leave your contacts and we will call you back</p>
+            <p class="modal-title">Залиште свої контакти і ми вам передзвонимо</p>
             <form class="modal-form">
                 <div class="modal-punct">
                     <label for="user-name" class="modal-lable">Name</label>
@@ -371,11 +376,63 @@
                         <a href="#" class="link-privacy-policy">Privacy Policy</a>
                     </label>
                 </div>
-                <button class="button-privacy-policy"  type="submit" onclick="reCall()">Send</button>
+                <ul class="buttlist list">
+                <li><button class="button-privacy-policy"  type="submit" onclick="reCall()">Send</button></li>
+                <li><button class="button-privacy-policy"  type="button" data-modal-opent >Сount</button></li>
+                </ul>
             </form>
         </div>
     </div>
 
+    <div class="backdrop is-hidden" data-modalt>
+        <div class="modalq">
+            <button class="close" type="button" data-modal-closet>
+                <svg width="8" height="8" class="close-icon">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="modal-title">Обрахунки приблизної вартості весілля</p>
+            <form class="modal-form " id="calculatorForm">
+                <div class="priceform">
+                <label class="" for="option1">
+                    <input class="checkbox-own" value="659" id="option1" type="checkbox">
+                    Весільні вбрання, зачіска, макіяж, манікюр.
+                </label>
+                
+                <label class="" for="option2">
+                    <input class="checkbox-own" value="1200" id="option2" type="checkbox">
+                    Дикорації весільної зали, фотозони.
+                </label>
+                  
+                
+                <label class="" for="option3">
+                    <input class="checkbox-own" value="825" id="option3" type="checkbox">
+                    Професійний діджей та рокгурт
+                </label>
+                
+                <label class="" for="option4">
+                    <input class="checkbox-own" value="1550" id="option4" type="checkbox">
+                    Серверування банкету, офіціанти та меню.
+                </label>
+
+                <label class="" for="option5">
+                    <input class="checkbox-own" value="375" id="option5" type="checkbox">
+                    Послуги нашої весільної фотостудії.
+                </label>
+                </div>
+                <ul class="list buttlist">
+                    <li><button class="button-privacy-policy" type="button" onclick="calculateSum()">Порахувати</button></li>
+                    <li><button class="button-privacy-policy" type="button" onclick="closeForm()" >Відправити</button></li>
+                </ul>  
+                <div class="result" id="result"></div>
+                
+                  
+            
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/ksuprice.js"></script>
     <script src="./js/annfooter.js"></script>
     <script src="./js/ksuform.js"></script>
     <script src="./js/ksumobalmenu.js"></script>

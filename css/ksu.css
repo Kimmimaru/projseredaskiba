@@ -648,11 +648,37 @@
         border-radius: 4px;
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         margin: 0 auto;
+        margin-bottom: 14px;
     }
     
     .button-privacy-policy:is(:hover, :focus){
         background-color: #b90b4e;
     }
+
+    .buttlist {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 10px;
+    }
+
+
+
+
+    .priceform{
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        padding-top: 24px;
+        margin-bottom: 24px;
+    }
+
+    .result{
+        margin-top: 24px;
+        margin-bottom: 24px;
+    }
+
+
+
 
 
 
@@ -784,6 +810,14 @@
 
     .modalq {
         min-width: 408px;
+    }
+
+
+    .buttlist {
+        display: flex;
+        flex-direction: row;
+        gap: 14px;
+        justify-content: space-between;
     }
 
 
@@ -1252,6 +1286,7 @@
             border-radius: 4px;
             transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
             margin: 0 auto;
+            margin-bottom: 18px;
         }
 
         .button-privacy-policy:is(:hover, :focus){

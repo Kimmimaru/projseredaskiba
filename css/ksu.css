@@ -789,7 +789,7 @@
 
     .portfolio-punct-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
         column-gap: 24px;

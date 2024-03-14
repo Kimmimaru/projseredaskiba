@@ -17,18 +17,22 @@ function del() {
 }
 
 
-const allergyCheckbox = document.getElementById('allergyCheckbox');
-const otherCheckbox = document.getElementById('otherCheckbox');
-
-allergyCheckbox.addEventListener('change', function() {
-  if (allergyCheckbox.checked) {
-    alert('Дякую за відгук!');
+function submitFeedback() {
+    var feedbackForm = document.getElementById("frm");
+    var feedbackRadios = feedbackForm.elements["feedback"];
+    var selectedFeedback = null;
+    
+    for (var i = 0; i < feedbackRadios.length; i++) {
+      if (feedbackRadios[i].checked) {
+        selectedFeedback = feedbackRadios[i].value;
+        break;
+      }
+    }
+    
+    if (selectedFeedback !== null) {
+      feedbackForm.style.display = "none";
+      alert("Дякуємо за відгук!");
+    } else {
+      alert("Будь ласка, виберіть відгук!");
+    }
   }
-});
-
-otherCheckbox.addEventListener('change', function() {
-  if (otherCheckbox.checked) {
-    alert('Дякую за відгук!');
-  }
-});
-
